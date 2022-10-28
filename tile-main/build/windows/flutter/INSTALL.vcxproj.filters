@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\campc\DuraEuropos Tile\tile-main\build\windows\CMakeFiles\3eb601ddb48b3a31d0cb3825531a101b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{00B059FF-D170-3062-8657-794622E0DD8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

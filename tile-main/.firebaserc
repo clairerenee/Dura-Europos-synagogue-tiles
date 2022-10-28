@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "staging": "dura-tiles",
+    "default": "dura-tiles"
+  },
+  "targets": {}
+}

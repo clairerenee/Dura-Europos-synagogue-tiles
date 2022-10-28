@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "769230393860",
+    "firebase_url": "https://dura-tiles-default-rtdb.firebaseio.com",
+    "project_id": "dura-tiles",
+    "storage_bucket": "dura-tiles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769230393860:android:64eabf284a11821d189b51",
+        "android_client_info": {
+          "package_name": "com.example.duraTile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769230393860-uuh74ijam1u8qtveqrhng2eu4hqtvo1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVFBbi23Kuz9UqZ4CtAoF7IJvyqdggUrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769230393860-uuh74ijam1u8qtveqrhng2eu4hqtvo1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

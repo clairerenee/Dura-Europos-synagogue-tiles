@@ -1,0 +1,28 @@
+^C:\USERS\CAMPC\DURAEUROPOS TILE\TILE-MAIN\BUILD\WINDOWS\CMAKEFILES\0C1E81D0488BBDD1A825D6B5CD70929C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=C:\Users\campc\DuraEuropos Tile\flutter" "PROJECT_DIR=C:\Users\campc\DuraEuropos Tile\tile-main" "FLUTTER_ROOT=C:\Users\campc\DuraEuropos Tile\flutter" "FLUTTER_EPHEMERAL_DIR=C:\Users\campc\DuraEuropos Tile\tile-main\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\campc\DuraEuropos Tile\tile-main" "FLUTTER_TARGET=C:\Users\campc\DuraEuropos Tile\tile-main\lib/main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\campc\DuraEuropos Tile\tile-main\.dart_tool\package_config.json" "C:/Users/campc/DuraEuropos Tile/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CAMPC\DURAEUROPOS TILE\TILE-MAIN\BUILD\WINDOWS\CMAKEFILES\3EB601DDB48B3A31D0CB3825531A101B\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CAMPC\DURAEUROPOS TILE\TILE-MAIN\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/campc/DuraEuropos Tile/tile-main/windows" "-BC:/Users/campc/DuraEuropos Tile/tile-main/build/windows" --check-stamp-file "C:/Users/campc/DuraEuropos Tile/tile-main/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

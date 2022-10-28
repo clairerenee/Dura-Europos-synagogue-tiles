@@ -1,0 +1,10 @@
+^C:\USERS\CAMPC\DURAEUROPOS TILE\TILE-MAIN\BUILD\WINDOWS\CMAKEFILES\E508A35C4238931B96B92D9EE3A89539\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/campc/DuraEuropos Tile/tile-main/windows" "-BC:/Users/campc/DuraEuropos Tile/tile-main/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/campc/DuraEuropos Tile/tile-main/build/windows/tile.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
